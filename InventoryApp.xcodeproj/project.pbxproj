@@ -12,6 +12,7 @@
 		C1454C4C2C5227C90077D540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1454C4B2C5227C90077D540 /* Assets.xcassets */; };
 		C1454C4F2C5227C90077D540 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1454C4E2C5227C90077D540 /* Preview Assets.xcassets */; };
 		C1454C562C527EAC0077D540 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1454C552C527EAC0077D540 /* ContentView2.swift */; };
+		C1454C582C52BE340077D540 /* ContentView2Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1454C572C52BE340077D540 /* ContentView2Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C1454C4B2C5227C90077D540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1454C4E2C5227C90077D540 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C1454C552C527EAC0077D540 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		C1454C572C52BE340077D540 /* ContentView2Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				C1454C472C5227C80077D540 /* InventoryAppApp.swift */,
 				C1454C492C5227C80077D540 /* ContentView.swift */,
 				C1454C552C527EAC0077D540 /* ContentView2.swift */,
+				C1454C572C52BE340077D540 /* ContentView2Model.swift */,
 				C1454C4B2C5227C90077D540 /* Assets.xcassets */,
 				C1454C4D2C5227C90077D540 /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				C1454C562C527EAC0077D540 /* ContentView2.swift in Sources */,
 				C1454C4A2C5227C80077D540 /* ContentView.swift in Sources */,
 				C1454C482C5227C80077D540 /* InventoryAppApp.swift in Sources */,
+				C1454C582C52BE340077D540 /* ContentView2Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

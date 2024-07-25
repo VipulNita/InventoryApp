@@ -15,7 +15,7 @@ struct ContentView: View {
                 Image(systemName: "hands.clap")
                     .imageScale(.large)
                     .foregroundStyle(.tint)
-                NavigationLink(destination: Page2View()) {
+                NavigationLink(destination:ContentView2()) {
                     Label("Checkout Inventory", systemImage: "timer")
                         .font(.headline)
                         .foregroundColor(.accentColor)
