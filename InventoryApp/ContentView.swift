@@ -8,16 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack {
+                Image(systemName: "hands.clap")
+                    .imageScale(.large)
+                    .foregroundStyle(.tint)
+                NavigationLink(destination: Page2View()) {
+                    Label("Checkout Inventory", systemImage: "timer")
+                        .font(.headline)
+                        .foregroundColor(.accentColor)
+                }
+            }
+            .padding()
         }
-        .padding()
     }
 }
+
 
 #Preview {
     ContentView()
